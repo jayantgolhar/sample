@@ -1,4 +1,4 @@
-# Distributed File System
+# Distributed and Replicated File System using Raft consensus Algorithm
 
 This is a distributed file system which uses Raft algorithm for consensus. It is divided into three layers i.e File System , Raft Node and Raft State machine.
 `Raft state machine` implements the Raft consensus algorithm. It is moduler deterministic state machine. `Raft node` does all the wiring between different state machine modules.
